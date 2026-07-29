@@ -2,7 +2,7 @@
 
 <img src="https://zernio.com/brand/logo-primary.svg" alt="Zernio" width="300">
 
-### Ship social features, not sixteen OAuth integrations.
+### Ship social features, not fifteen OAuth integrations.
 
 One REST API for publishing, inbox, analytics and paid ads across **15 social platforms** and **7 ad networks**.<br>
 The API is closed. Everything we build on top of it is open, and it is all here.
