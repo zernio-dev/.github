@@ -2,9 +2,9 @@
 
 <img src="https://zernio.com/brand/logo-primary.svg" alt="Zernio" width="300">
 
-### Ship social features, not fifteen OAuth integrations.
+### Ship social features, not sixteen OAuth integrations.
 
-One REST API for publishing, inbox, analytics and paid ads across **15 social platforms** and **7 ad networks**.<br>
+One REST API for publishing, inbox, analytics and paid ads across **16 social platforms** and **7 ad networks**.<br>
 The API is closed. Everything we build on top of it is open, and it is all here.
 
 [Docs](https://docs.zernio.com/?ref=github-org-readme) •
@@ -83,11 +83,12 @@ Same request, same auth, same error contract for every one of them. You change o
 | [Telegram](https://docs.zernio.com/platforms/telegram?ref=github-org-readme) | `telegram` |
 | [Snapchat](https://docs.zernio.com/platforms/snapchat?ref=github-org-readme) | `snapchat` |
 | [Discord](https://docs.zernio.com/platforms/discord?ref=github-org-readme) | `discord` |
+| [Slack](https://docs.zernio.com/platforms/slack?ref=github-org-readme) | `slack` |
 
 **Ad networks:** `metaads`, `googleads`, `tiktokads`, `linkedinads`, `pinterestads`, `xads`, [`openaiads`](https://docs.zernio.com/platforms/openai-ads?ref=github-org-readme).
 
 > [!NOTE]
-> Platform list and enum values come from the `/v1/connect/{platform}` enum in the [published OpenAPI spec](https://zernio.com/openapi.yaml), which is the contract that decides what you can actually connect. Some SDK READMEs still say 14 and omit Discord.
+> Platform list and enum values come from the `/v1/connect/{platform}` enum in the [published OpenAPI spec](https://zernio.com/openapi.yaml), which is the contract that decides what you can actually connect. Some SDK READMEs lag a platform behind; the enum is the contract.
 
 ## What you can call
 
@@ -217,5 +218,5 @@ Bugs and feature requests go in the issue tracker of the relevant repo above.
 
 </div>
 
-<!-- Platform counts here follow POSTING_PLATFORM_COUNT (15) and the /v1/connect/{platform} enum,
+<!-- Platform counts here follow POSTING_PLATFORM_COUNT (16) and the /v1/connect/{platform} enum,
      which is the contract that decides what can actually be connected. Update both together. -->
