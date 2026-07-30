@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://zernio.com/brand/logo-primary.svg" alt="Zernio" width="300">
+<a href="https://zernio.com/?ref=github-org-readme">
+  <img src="https://raw.githubusercontent.com/zernio-dev/.github/main/profile/banner.webp" alt="Zernio: social media and messaging API for developers" width="100%">
+</a>
 
 ### Ship social features, not sixteen OAuth integrations.
 
