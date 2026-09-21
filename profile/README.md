@@ -18,7 +18,7 @@ The API is closed. Everything we build on top of it is open, and it is all here.
 </div>
 
 ```bash
-npm install @zernio/node
+npm install @zernio/node 
 ```
 
 ```typescript
